@@ -1,0 +1,20 @@
+
+
+#include<stdio.h>
+int main()
+{
+float X,P,Y,K;
+scanf("%f",&X);
+scanf("%f",&P);
+Y=X;
+while(Y>1)
+{
+K=(X*P)/100;
+Y=Y-K;
+printf("%f\n",&Y);
+X+=Y;
+}
+printf("%d",X);
+return 0;
+}
+
